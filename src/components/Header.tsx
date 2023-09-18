@@ -1,12 +1,12 @@
 import '../styles/header.scss'
 
-const logo = require("../../public/logo.svg")
-
 export function Header() {
   return (
     <header className="header">
       <div>
-        <img src={logo} alt="to.do"/>
+        <h1>
+          TO.DO
+        </h1>
       </div>
     </header>
   )
